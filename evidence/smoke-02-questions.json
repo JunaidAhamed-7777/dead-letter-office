@@ -1,0 +1,240 @@
+[
+  {
+    "id": "S01",
+    "category": "paraphrase",
+    "query": "How many travellers got their money back after the cancellation?",
+    "required_evidence_groups": [
+      [
+        "L01-P2"
+      ]
+    ],
+    "acceptable_support": [
+      "L01-P2"
+    ],
+    "expected_answer": "Six."
+  },
+  {
+    "id": "S02",
+    "category": "paraphrase",
+    "query": "Until what hour did the keeper say he stayed beside the lantern?",
+    "required_evidence_groups": [
+      [
+        "L02-P1"
+      ]
+    ],
+    "acceptable_support": [
+      "L02-P1"
+    ],
+    "expected_answer": "Until midnight, according to Silas; this does not resolve the visibility dispute."
+  },
+  {
+    "id": "S03",
+    "category": "paraphrase",
+    "query": "Where was the anonymous woollen hand covering put for safekeeping?",
+    "required_evidence_groups": [
+      [
+        "L02-P3"
+      ]
+    ],
+    "acceptable_support": [
+      "L02-P3"
+    ],
+    "expected_answer": "The red mitten was kept in the desk."
+  },
+  {
+    "id": "S04",
+    "category": "paraphrase",
+    "query": "What was the toy padded with so it would not snag?",
+    "required_evidence_groups": [
+      [
+        "L04-P1"
+      ]
+    ],
+    "acceptable_support": [
+      "L04-P1"
+    ],
+    "expected_answer": "A blue tea towel."
+  },
+  {
+    "id": "S05",
+    "category": "paraphrase",
+    "query": "Was a closed post office really an obstacle to mailing the ferryman’s apology?",
+    "required_evidence_groups": [
+      [
+        "L05-P3"
+      ]
+    ],
+    "acceptable_support": [
+      "L05-P3"
+    ],
+    "expected_answer": "No, there was a slot in the door; he knew his excuse was poor."
+  },
+  {
+    "id": "S06",
+    "category": "paraphrase",
+    "query": "In what year was the school performance preserved on the sound cylinder?",
+    "required_evidence_groups": [
+      [
+        "L06-P2"
+      ]
+    ],
+    "acceptable_support": [
+      "L06-P2"
+    ],
+    "expected_answer": "1919."
+  },
+  {
+    "id": "S07",
+    "category": "paraphrase",
+    "query": "Who took custody of the sound recording after the mechanic’s repair?",
+    "required_evidence_groups": [
+      [
+        "L06-P3"
+      ]
+    ],
+    "acceptable_support": [
+      "L06-P3"
+    ],
+    "expected_answer": "The headteacher."
+  },
+  {
+    "id": "S08",
+    "category": "paraphrase",
+    "query": "What should visitors bring to eat at the apple-tree gathering?",
+    "required_evidence_groups": [
+      [
+        "L07-P3"
+      ]
+    ],
+    "acceptable_support": [
+      "L07-P3"
+    ],
+    "expected_answer": "Bread and apples; a memory also requested but not food."
+  },
+  {
+    "id": "S09",
+    "category": "paraphrase",
+    "query": "Which time reference did the craftsperson use when resetting the railway clock?",
+    "required_evidence_groups": [
+      [
+        "L09-P1"
+      ]
+    ],
+    "acceptable_support": [
+      "L09-P1"
+    ],
+    "expected_answer": "Observatory signal at noon."
+  },
+  {
+    "id": "S10",
+    "category": "paraphrase",
+    "query": "Why was the replacement lighthouse component specified in a costlier alloy?",
+    "required_evidence_groups": [
+      [
+        "L09-P3"
+      ]
+    ],
+    "acceptable_support": [
+      "L09-P3"
+    ],
+    "expected_answer": "Brass rather than iron because salt air eats the cheaper metal."
+  },
+  {
+    "id": "S11",
+    "category": "compound",
+    "query": "Were either the blue fabric found at the landing or the red wool on the tower stairs tied to an identified owner?",
+    "required_evidence_groups": [
+      [
+        "L11-P1"
+      ],
+      [
+        "L02-P3"
+      ]
+    ],
+    "acceptable_support": [
+      "L02-P3",
+      "L11-P1"
+    ],
+    "expected_answer": "Neither has an identified owner in the record."
+  },
+  {
+    "id": "S12",
+    "category": "compound",
+    "query": "Which records make both a train escape and a ferry escape during the storm doubtful?",
+    "required_evidence_groups": [
+      [
+        "L01-P1"
+      ],
+      [
+        "L11-P2"
+      ]
+    ],
+    "acceptable_support": [
+      "L01-P1",
+      "L11-P2"
+    ],
+    "expected_answer": "Train was cancelled; named ferry stayed tied up. Other vessels not ruled out; no claim that Ada escaped."
+  },
+  {
+    "id": "S13",
+    "category": "missing_fact",
+    "query": "What was Nora’s mantel clock’s exact error in minutes that night?",
+    "required_evidence_groups": [
+      [
+        "L03-P2",
+        "L09-P2"
+      ]
+    ],
+    "acceptable_support": [
+      "L03-P2",
+      "L09-P2"
+    ],
+    "expected_answer": "Unknown; household clock uncertainty cannot be quantified from station clock error."
+  },
+  {
+    "id": "S14",
+    "category": "missing_fact",
+    "query": "On what day did Ada decide to move in with her sister?",
+    "required_evidence_groups": [
+      [
+        "L10-P3"
+      ]
+    ],
+    "acceptable_support": [
+      "L10-P3"
+    ],
+    "expected_answer": "No decision recorded; she had not decided whether to join sister inland."
+  },
+  {
+    "id": "S15",
+    "category": "out_of_domain",
+    "query": "Is the scarf at the postal counter available for me to purchase today?",
+    "required_evidence_groups": [],
+    "acceptable_support": [],
+    "expected_answer": "No current availability or commerce answer supported."
+  },
+  {
+    "id": "S16",
+    "category": "out_of_domain",
+    "query": "Show me how to repair the electric motor in a modern lighthouse beacon.",
+    "required_evidence_groups": [],
+    "acceptable_support": [],
+    "expected_answer": "No modern repair instructions supported."
+  },
+  {
+    "id": "S17",
+    "category": "out_of_domain",
+    "query": "What will the harbour water level be at 9 a.m. next Tuesday?",
+    "required_evidence_groups": [],
+    "acceptable_support": [],
+    "expected_answer": "No forecast or valid current tide table supported."
+  },
+  {
+    "id": "S18",
+    "category": "out_of_domain",
+    "query": "Calculate the compound interest on a five-shilling loan at seven percent for twelve years.",
+    "required_evidence_groups": [],
+    "acceptable_support": [],
+    "expected_answer": "No financial calculation supported; shared currency word is not evidence."
+  }
+]
