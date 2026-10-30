@@ -1,0 +1,59 @@
+{
+  "source": "Actual x11 browser recording performed through CUA; not reconstructed UI frames.",
+  "raw_duration_seconds": 180,
+  "crop": {
+    "x": 94,
+    "y": 175,
+    "width": 1174,
+    "height": 758
+  },
+  "edits": "Cuts remove idle time; browser/desktop chrome cropped; captions added outside the captured UI. No interface text/results altered.",
+  "demo_seconds": 78,
+  "master_gif_speed": 2.6,
+  "scenes": [
+    {
+      "raw_start": 0,
+      "duration": 5,
+      "demo_start": 0,
+      "caption": "Dead Letter Office  /  A local AI reading room"
+    },
+    {
+      "raw_start": 38,
+      "duration": 13,
+      "demo_start": 5,
+      "caption": "Ask about the loose ends"
+    },
+    {
+      "raw_start": 62,
+      "duration": 16,
+      "demo_start": 18,
+      "caption": "Follow a citation to the complete letter"
+    },
+    {
+      "raw_start": 92,
+      "duration": 15,
+      "demo_start": 34,
+      "caption": "Keep both accounts when witnesses disagree"
+    },
+    {
+      "raw_start": 107,
+      "duration": 12,
+      "demo_start": 49,
+      "caption": "Browse twelve original fictional letters"
+    },
+    {
+      "raw_start": 124,
+      "duration": 10,
+      "demo_start": 61,
+      "caption": "A relevant passage can say the answer is unknown"
+    },
+    {
+      "raw_start": 164,
+      "duration": 7,
+      "demo_start": 71,
+      "caption": "Read the evidence before drawing a conclusion"
+    }
+  ],
+  "audio": "None. This is a silent demonstration.",
+  "raw_in_deliverable": false
+}
