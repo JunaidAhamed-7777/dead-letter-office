@@ -1,0 +1,7 @@
+{
+  "registered_at": "2026-10-30T03:57:19.587754+00:00",
+  "questions_sha256": "f08338b0bc5d5543f36c167de03a8915f9c187b0dbabdba836801787ad707896",
+  "corpus_sha256": "e7c6b644e0c89d5d4209145cca3b6eeb616e85aa694a2a8f65348bb7463169f3",
+  "count": 18,
+  "novelty": "New query wording and mostly different requested facts; same tiny corpus, same auditor aware of first-model behavior. Fresh unseen smoke, not statistically independent generalization benchmark. Questions not executed before second freeze and not shared with builder."
+}
