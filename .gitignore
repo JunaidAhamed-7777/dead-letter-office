@@ -1,0 +1,15 @@
+.venv/
+.verify-venv/
+.vendor/
+.tools/
+.demo-frames/
+.media-work/
+docs/media/raw-ui-demo.mp4
+deliverables/
+models/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Keep the private submission draft out of source commits.
+SUBMISSION-DRAFT.md
