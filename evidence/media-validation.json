@@ -1,0 +1,52 @@
+[
+  {
+    "file": "docs/media/01-search.gif",
+    "dimensions": [
+      960,
+      672
+    ],
+    "frames": 91,
+    "duration_seconds": 13.0,
+    "bytes": 638329
+  },
+  {
+    "file": "docs/media/02-evidence.gif",
+    "dimensions": [
+      960,
+      672
+    ],
+    "frames": 112,
+    "duration_seconds": 16.0,
+    "bytes": 738755
+  },
+  {
+    "file": "docs/media/03-contradictions.gif",
+    "dimensions": [
+      960,
+      672
+    ],
+    "frames": 105,
+    "duration_seconds": 15.0,
+    "bytes": 757384
+  },
+  {
+    "file": "docs/media/04-archive.gif",
+    "dimensions": [
+      960,
+      672
+    ],
+    "frames": 84,
+    "duration_seconds": 12.0,
+    "bytes": 783733
+  },
+  {
+    "file": "docs/media/MASTER.gif",
+    "dimensions": [
+      960,
+      672
+    ],
+    "frames": 210,
+    "duration_seconds": 30.0,
+    "bytes": 2447097
+  }
+]
