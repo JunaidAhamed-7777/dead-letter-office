@@ -1,0 +1,5 @@
+numpy==2.3.5
+onnxruntime==1.24.3
+tokenizers==0.22.2
+scikit-learn==1.8.0
+scipy==1.17.0
