@@ -1,0 +1,299 @@
+{
+  "notes": "Original, synthetic, hand-authored small-case evaluation. The corpus and query labels were frozen before running retrieval. The embedding model is not trained on this archive, and these queries are not an external or blinded benchmark. Do not tune thresholds on these cases and call the resulting result held-out. Similarity scores are not probabilities. In-domain unanswerable questions intentionally test whether related retrieval is mistaken for factual support.",
+  "retrieval": [
+    {
+      "question": "Why was the late departure called off?",
+      "relevant": [
+        "L01-P1"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Did the midnight whistle mean a train had left town?",
+      "relevant": [
+        "L01-P1",
+        "L01-P2"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Who last saw Ada after she reached the railway station?",
+      "relevant": [
+        "L01-P3",
+        "L12-P1"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Was the lighthouse shining at eleven twenty?",
+      "relevant": [
+        "L02-P1",
+        "L03-P1",
+        "L12-P2"
+      ],
+      "kind": "multi_source"
+    },
+    {
+      "question": "What prevented the beam from sweeping over the harbour?",
+      "relevant": [
+        "L02-P2"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "What unclaimed clothing was discovered inside the tower?",
+      "relevant": [
+        "L02-P3"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Which timepiece did the seamstress consult?",
+      "relevant": [
+        "L03-P2"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Where can Theo recover his childhood toy?",
+      "relevant": [
+        "L04-P1"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Why did Mara save a bird that could not sing properly?",
+      "relevant": [
+        "L04-P2"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Who falsely accused Elsie of losing the records?",
+      "relevant": [
+        "L05-P1"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "How much money did Jonas enclose?",
+      "relevant": [
+        "L05-P2"
+      ],
+      "kind": "literal"
+    },
+    {
+      "question": "Why had the apology not reached its recipient?",
+      "relevant": [
+        "L05-P3"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "What was making the repeated voice in the signal house?",
+      "relevant": [
+        "L06-P1"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Do the papers identify the speaker on the cylinder?",
+      "relevant": [
+        "L06-P2"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "What can be heard at the end of the recording?",
+      "relevant": [
+        "L06-P3"
+      ],
+      "kind": "literal"
+    },
+    {
+      "question": "Where and when are the name ribbons being gathered?",
+      "relevant": [
+        "L07-P1"
+      ],
+      "kind": "literal"
+    },
+    {
+      "question": "Does a ribbon on an apple tree mean the named person is dead?",
+      "relevant": [
+        "L07-P2"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "What should guests bring to the remembrance evening?",
+      "relevant": [
+        "L07-P3"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Why does mail to fourteen Salt Lane return undelivered?",
+      "relevant": [
+        "L08-P1"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Is the damaged postal mark a secret message?",
+      "relevant": [
+        "L08-P2"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Where are the letters stored, and why keep their envelopes?",
+      "relevant": [
+        "L08-P3"
+      ],
+      "kind": "multi_source"
+    },
+    {
+      "question": "How far behind was the public clock?",
+      "relevant": [
+        "L09-P1"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Can we correct Nora’s time using the station clock error?",
+      "relevant": [
+        "L09-P2"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Why did the keeper request brass for the repair?",
+      "relevant": [
+        "L09-P3"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "What was Ada carrying to the signal house?",
+      "relevant": [
+        "L10-P1"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "What route did Ada plan to take after the station?",
+      "relevant": [
+        "L10-P2"
+      ],
+      "kind": "literal"
+    },
+    {
+      "question": "Had Ada definitely decided to move inland?",
+      "relevant": [
+        "L10-P3"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Does the recovered scarf prove Ada was at the landing?",
+      "relevant": [
+        "L11-P1"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Could the ferry have transported anyone during the storm?",
+      "relevant": [
+        "L11-P2"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "How should the clerk check a claim to the scarf?",
+      "relevant": [
+        "L11-P3"
+      ],
+      "kind": "paraphrase"
+    },
+    {
+      "question": "Can we settle the two accounts of the lighthouse?",
+      "relevant": [
+        "L12-P2",
+        "L02-P1",
+        "L03-P1"
+      ],
+      "kind": "multi_source"
+    },
+    {
+      "question": "What instructions were left about answering in the writers’ names?",
+      "relevant": [
+        "L12-P3"
+      ],
+      "kind": "paraphrase"
+    }
+  ],
+  "unknown": [
+    {
+      "question": "What is the current price of Bitcoin?",
+      "reason": "No current financial data; wholly outside the fictional archive.",
+      "kind": "out_of_domain"
+    },
+    {
+      "question": "How do I configure a Kubernetes cluster?",
+      "reason": "No software operations material.",
+      "kind": "out_of_domain"
+    },
+    {
+      "question": "Who won the 2026 football world championship?",
+      "reason": "No contemporary sport material.",
+      "kind": "out_of_domain"
+    },
+    {
+      "question": "What dose of antibiotics should I take?",
+      "reason": "No medical evidence or treatment guidance.",
+      "kind": "out_of_domain"
+    },
+    {
+      "question": "What is the weather in Tokyo tomorrow?",
+      "reason": "No live weather data or Tokyo material.",
+      "kind": "out_of_domain"
+    },
+    {
+      "question": "Can you book a flight to Paris?",
+      "reason": "No booking capability or travel service.",
+      "kind": "out_of_domain"
+    },
+    {
+      "question": "Where is Ada living now?",
+      "reason": "No verified whereabouts after the station sighting. Related passages do not establish an answer.",
+      "kind": "in_domain_unanswerable",
+      "context": [
+        "L12-P1"
+      ]
+    },
+    {
+      "question": "How many grams of honey went into Mara’s loaf?",
+      "reason": "The letter explicitly says ingredient quantities were not written down.",
+      "kind": "in_domain_unanswerable",
+      "context": [
+        "L04-P3"
+      ]
+    },
+    {
+      "question": "Who owned the red mitten on the lighthouse stairs?",
+      "reason": "No identifying mark or visitor record establishes ownership.",
+      "kind": "in_domain_unanswerable",
+      "context": [
+        "L02-P3"
+      ]
+    },
+    {
+      "question": "What was the name of the pupil on the wax cylinder?",
+      "reason": "The pupil’s name was not recorded on the sleeve.",
+      "kind": "in_domain_unanswerable",
+      "context": [
+        "L06-P2"
+      ]
+    }
+  ]
+}
