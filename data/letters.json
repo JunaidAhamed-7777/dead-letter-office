@@ -1,0 +1,284 @@
+[
+  {
+    "id": "L01",
+    "title": "The train that did not leave",
+    "date": "1924-10-19",
+    "author": "Edwin Rook, stationmaster",
+    "recipient": "District railway office",
+    "location": "Morrow Quay station",
+    "description": "A report never collected by the morning courier.",
+    "passages": [
+      {
+        "id": "L01-P1",
+        "text": "No train left Morrow Quay at eleven forty on the night of 18 October. Floodwater had covered the cutting beyond Bracken Bridge. I cancelled the departure at ten fifty and chained the platform gate. The locomotive remained in its shed until morning."
+      },
+      {
+        "id": "L01-P2",
+        "text": "The sound heard along the harbour was our stationary engine. Porter Bell released its pressure twice while checking the boiler. A whistle in the fog is not evidence of a departure. The passenger ledger contains six names; all six were refunded at the booking window."
+      },
+      {
+        "id": "L01-P3",
+        "text": "Ada Venn came to the locked gate after the refunds. She carried a square canvas case and asked whether the south causeway was still passable. I told her I did not know. She walked towards the harbour before I could offer her the waiting room."
+      }
+    ]
+  },
+  {
+    "id": "L02",
+    "title": "The keeper’s account",
+    "date": "1924-10-20",
+    "author": "Silas Mere, lighthouse keeper",
+    "recipient": "Harbour committee",
+    "location": "North Point lighthouse",
+    "description": "Oil-stained paper folded around an unpaid invoice.",
+    "passages": [
+      {
+        "id": "L02-P1",
+        "text": "At eleven twenty on the storm night, 18 October, the lighthouse lamp was burning. I had fitted a fresh wick at dusk and stayed beside the lantern until midnight. I cannot account for the report that the tower was dark at that same hour.",
+        "conflicts": [
+          "L03-P1"
+        ]
+      },
+      {
+        "id": "L02-P2",
+        "text": "The revolving mechanism stopped shortly after eleven. Its brass drive pin had sheared, leaving the beam pointed towards the open sea instead of sweeping the quay. The light itself did not fail. A replacement pin was ordered from Fenwick’s workshop the following morning."
+      },
+      {
+        "id": "L02-P3",
+        "text": "I found a red wool mitten on the lower stair after sunrise. No name was stitched inside it. The visitors’ book had been put away before the storm, so it cannot tell us who came to the tower that night. I have kept the mitten in the desk."
+      }
+    ]
+  },
+  {
+    "id": "L03",
+    "title": "A window facing north",
+    "date": "1924-10-20",
+    "author": "Nora Finch, seamstress",
+    "recipient": "Silas Mere",
+    "location": "Upper rooms, Salt Lane",
+    "description": "An eyewitness challenges the keeper’s report.",
+    "passages": [
+      {
+        "id": "L03-P1",
+        "text": "At eleven twenty on 18 October I was watching North Point from my sewing-room window. The lighthouse lantern was completely dark; not merely turned away, but dark behind every pane I could see. I wrote the time on a scrap before closing the shutters.",
+        "conflicts": [
+          "L02-P1"
+        ]
+      },
+      {
+        "id": "L03-P2",
+        "text": "I used the mantel clock, not the station clock, to mark the hour. Whether it was keeping good time that evening I cannot swear. The storm shook soot from the chimney and I had other things to attend to than the hands of a clock."
+      },
+      {
+        "id": "L03-P3",
+        "text": "You and I disagree about what was visible, Silas. Neither of us should amend the other’s letter. Let whoever sorts these papers keep both accounts. I would rather leave a difficult question behind than a neat answer that one of us never gave."
+      }
+    ]
+  },
+  {
+    "id": "L04",
+    "title": "For the person who finds the bird",
+    "date": "1924-10-17",
+    "author": "Mara Vale, baker",
+    "recipient": "Her younger brother, Theo",
+    "location": "Vale’s bakery, Market Steps",
+    "description": "A small inheritance with a precise hiding place.",
+    "passages": [
+      {
+        "id": "L04-P1",
+        "text": "Your tin bird is in the third drawer below the flour scales at the bakery. I wrapped it in a blue tea towel so its wings would not catch on the wood. Turn the key only twice: the spring still sticks where you mended it."
+      },
+      {
+        "id": "L04-P2",
+        "text": "When you wound that little toy, its beak opened before a sound came out. We used to wait for the missing note and then whistle it ourselves. I have kept it because nobody else would understand why a broken bird was worth saving."
+      },
+      {
+        "id": "L04-P3",
+        "text": "The loaf we made for the autumn fair used rosemary from the courtyard and the last jar of honey. I never wrote down the amounts; I measured with the cracked cup and my hands. This letter is not a recipe, however much you may wish otherwise."
+      }
+    ]
+  },
+  {
+    "id": "L05",
+    "title": "An apology kept in a coat",
+    "date": "1924-10-22",
+    "author": "Jonas Pike, former ferryman",
+    "recipient": "Elsie Pike",
+    "location": "Boarding house, Ropewalk",
+    "description": "An unsent letter with no stamp and a worn fold.",
+    "passages": [
+      {
+        "id": "L05-P1",
+        "text": "Elsie, I told the harbour committee that you had misplaced the mooring ledger. That was not true. I left it on the ferry bench, and the tide took it when the boat flooded. I let you carry the blame because I was afraid of losing my berth."
+      },
+      {
+        "id": "L05-P2",
+        "text": "The money tucked inside this envelope is the five shillings you paid to replace the ledger. Returning it does not settle the matter. I want the committee to hear the correction from me, with you in the room if you wish to come."
+      },
+      {
+        "id": "L05-P3",
+        "text": "I have carried this apology in my coat for four days without posting it. Every evening I tell myself the post office has already shut. There is a slot in its door. We both know that, which makes the excuse particularly poor."
+      }
+    ]
+  },
+  {
+    "id": "L06",
+    "title": "The voice in the wireless room",
+    "date": "1924-10-23",
+    "author": "Ivo Trent, wireless mechanic",
+    "recipient": "Morrow Quay school",
+    "location": "Old signal house",
+    "description": "A repair note explains a voice heard after closing.",
+    "passages": [
+      {
+        "id": "L06-P1",
+        "text": "The voice saying “come home before the dark” was on a wax cylinder, not arriving over the wireless. A loose contact started the dictation machine whenever the building’s door slammed. I disconnected that contact on Tuesday and the repeated voice stopped."
+      },
+      {
+        "id": "L06-P2",
+        "text": "The cylinder’s paper sleeve names the school’s winter play of 1919. The line belongs to the character of a lost sailor, played by a pupil whose name was not recorded. Nothing on the sleeve identifies the voice as Ada’s, or as anyone else’s."
+      },
+      {
+        "id": "L06-P3",
+        "text": "I have left the cylinder with the headteacher rather than scrape it clean. The last few seconds contain laughter and a chair falling over. Those ordinary sounds seem worth keeping, even if the words at the beginning have frightened half the street."
+      }
+    ]
+  },
+  {
+    "id": "L07",
+    "title": "Names on the apple trees",
+    "date": "1924-10-24",
+    "author": "Beatrice Moss, orchard keeper",
+    "recipient": "Morrow Quay reading society",
+    "location": "West orchard",
+    "description": "Instructions for a remembrance evening.",
+    "passages": [
+      {
+        "id": "L07-P1",
+        "text": "Bring the name ribbons to the west orchard at sunset on the thirty-first. We will tie them to the old apple trees and read the letters aloud. There will be a candle in each glass jar along the path, sheltered from the wind by stones."
+      },
+      {
+        "id": "L07-P2",
+        "text": "The ribbons are for people we miss, not only people who have died. Some have gone inland for work; some no longer write. Leave a space for the absent without deciding what became of them. A name on a tree is not a death notice."
+      },
+      {
+        "id": "L07-P3",
+        "text": "Please bring bread, apples, and a memory you are willing to share. Nobody needs to make a speech. If you would rather sit quietly, there is a bench beside the cider shed, and I will leave a jar of water there for anyone who needs it."
+      }
+    ]
+  },
+  {
+    "id": "L08",
+    "title": "Returned without a forwarding address",
+    "date": "1924-10-25",
+    "author": "Clara Dunn, postal clerk",
+    "recipient": "Municipal records room",
+    "location": "Dead Letter Office, Morrow Quay",
+    "description": "The clerk explains a sequence of returning envelopes.",
+    "passages": [
+      {
+        "id": "L08-P1",
+        "text": "The envelopes addressed to fourteen Salt Lane keep coming back because the house was demolished in June. Its residents moved before the demolition, but no forwarding address was lodged with this office. The red RETURN TO SENDER mark is our ordinary hand stamp."
+      },
+      {
+        "id": "L08-P2",
+        "text": "Somebody has mistaken the stamp’s broken R for a second message. There is no hidden word in it. The rubber split last winter, and the council has not approved its replacement. I can show you the stamp beside the sorting tray."
+      },
+      {
+        "id": "L08-P3",
+        "text": "I have placed the undeliverable letters in cabinet C, lower shelf, with their envelopes attached. Do not discard the covers: a postmark can establish when an item travelled even when its writer put no date on the page. The locked drawer contains only unused forms."
+      }
+    ]
+  },
+  {
+    "id": "L09",
+    "title": "Seventeen minutes",
+    "date": "1924-10-21",
+    "author": "Arthur Fenwick, clock repairer",
+    "recipient": "Edwin Rook",
+    "location": "Fenwick’s workshop, Bell Court",
+    "description": "A correction to a public clock, not to every witness.",
+    "passages": [
+      {
+        "id": "L09-P1",
+        "text": "The station clock was seventeen minutes slow when I examined it on the morning of 19 October. Damp had swollen the wooden case against the pendulum. I dried the case and set the hands from the observatory signal at noon."
+      },
+      {
+        "id": "L09-P2",
+        "text": "That fault tells us nothing certain about the clocks in private houses. Nora Finch’s mantel clock has not been in my workshop this year. Please do not subtract seventeen minutes from every time mentioned in town merely because the station clock was wrong."
+      },
+      {
+        "id": "L09-P3",
+        "text": "The lighthouse drive pin can be made here, but I need the broken piece to copy its diameter. Silas’s order asks for brass rather than iron because salt air eats the cheaper metal. I have put the material aside and am waiting for the sample."
+      }
+    ]
+  },
+  {
+    "id": "L10",
+    "title": "Before the causeway",
+    "date": "1924-10-18",
+    "author": "Ada Venn, instrument repairer",
+    "recipient": "Mara Vale",
+    "location": "A room above the chandlery",
+    "description": "The last dated note in this collection from Ada.",
+    "passages": [
+      {
+        "id": "L10-P1",
+        "text": "Mara, I am taking the recorder to the old signal house tonight. The canvas case has a split handle, so I have tied it with cord. If the late train is running, I will ask the porter to send my tools inland tomorrow."
+      },
+      {
+        "id": "L10-P2",
+        "text": "I intend to cross by the south causeway after calling at the station. The tide table on the chandlery wall is from last year, so I cannot trust it. If the water is too high, I shall turn back. Do not wait up with the oven lit."
+      },
+      {
+        "id": "L10-P3",
+        "text": "There is a postcard from my sister in the biscuit tin. Please leave it there until I return. I have not decided whether to join her inland. A person may think about leaving for a long time without having made a plan."
+      }
+    ]
+  },
+  {
+    "id": "L11",
+    "title": "What the ferry brought back",
+    "date": "1924-10-26",
+    "author": "Elsie Pike, ferry assistant",
+    "recipient": "Clara Dunn",
+    "location": "South landing",
+    "description": "A recovered object with no confirmed owner.",
+    "passages": [
+      {
+        "id": "L11-P1",
+        "text": "We found a blue scarf caught on a piling at the south landing. It has no initials, laundry mark, or other means of identifying its owner. Several people have said it must be Ada’s; none could describe what she wore that evening."
+      },
+      {
+        "id": "L11-P2",
+        "text": "The ferry made no crossing during the storm. Its hull was tied alongside the repair slip from nine in the evening until the following afternoon. Any account of a passenger being carried across that night requires a boat other than ours."
+      },
+      {
+        "id": "L11-P3",
+        "text": "I will leave the scarf at the postal counter for a fortnight. Ask anyone claiming it to describe the darn near one end before you show it to them. Please do not put Ada’s name on the parcel merely because people have begun to repeat it."
+      }
+    ]
+  },
+  {
+    "id": "L12",
+    "title": "Inventory of an unfinished story",
+    "date": "1924-10-29",
+    "author": "Clara Dunn, postal clerk",
+    "recipient": "The next keeper of these papers",
+    "location": "Dead Letter Office, Morrow Quay",
+    "description": "A catalogue note that marks the limits of the record.",
+    "passages": [
+      {
+        "id": "L12-P1",
+        "text": "This packet contains no report of Ada Venn arriving at the signal house, and no verified account of her whereabouts after the stationmaster saw her. It contains neither proof of her death nor a later address. The absence of a letter cannot decide between those possibilities."
+      },
+      {
+        "id": "L12-P2",
+        "text": "The lighthouse accounts remain in disagreement. Silas says the lamp burned at eleven twenty; Nora says it was dark. A stopped revolving mechanism and an uncertain household clock may matter, but these papers do not establish which explanation, if either, resolves the difference."
+      },
+      {
+        "id": "L12-P3",
+        "text": "Keep the questions beside the evidence. Do not write replies in the names of people whose letters happen to survive here. Read their actual words, record where they came from, and leave blank the part of the page that the record cannot fill."
+      }
+    ]
+  }
+]
