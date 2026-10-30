@@ -1,0 +1,352 @@
+{
+  "run_at": "2026-10-30T04:03:59.232192+00:00",
+  "base_url": "http://127.0.0.1:40071",
+  "api": [
+    {
+      "name": "health",
+      "expected": 200,
+      "actual": 200,
+      "passed": true,
+      "body": "{\"status\": \"ready\", \"offline\": true, \"model\": {\"name\": \"MiniLM + TF-IDF \u00b7 local CPU\", \"description\": \"384-dimensional MiniLM embeddings with source title/byline context. Ranking blends 50% semantic cosine with 50% TF-IDF. Displayed similarity is neural cosine, not the blended rank or confidence. Quotes pass a 0.12 hybrid relevance floor. A separate narrow scope rule rejects live-service requests; it is not an answerability model.\", \"dimensions\": 384, \"passages\": 36, \"revision\": \"1110a243fdf4706b3f48f1d95db1a4f5529b4d41\", \"provider\": \"CPUExecutionProvider\", \"index_context\": \"title + author + recipient + paragraph\", \"lexical_weight\": 0.5, \"selection_floor\": 0.12, \"selection_metric\": \"hybrid relevance\", \"candidate\": \"02\", \"answer_method\": \"Extractive \u2014 no text-generation model\"}}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "790",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "static allowlist /archive.py",
+      "expected": 404,
+      "actual": 404,
+      "passed": true,
+      "body": "{\"error\": \"This page is not in the archive. Return to /.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "58",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "static allowlist /data/letters.json",
+      "expected": 404,
+      "actual": 404,
+      "passed": true,
+      "body": "{\"error\": \"This page is not in the archive. Return to /.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "58",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "static allowlist /.vendor/",
+      "expected": 404,
+      "actual": 404,
+      "passed": true,
+      "body": "{\"error\": \"This page is not in the archive. Return to /.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "58",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "static allowlist /../archive.py",
+      "expected": 404,
+      "actual": 404,
+      "passed": true,
+      "body": "{\"error\": \"This page is not in the archive. Return to /.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "58",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "static allowlist /%2e%2e/archive.py",
+      "expected": 404,
+      "actual": 404,
+      "passed": true,
+      "body": "{\"error\": \"This page is not in the archive. Return to /.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "58",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "static allowlist /models/all-MiniLM-L6-v2/model.onnx",
+      "expected": 404,
+      "actual": 404,
+      "passed": true,
+      "body": "{\"error\": \"This page is not in the archive. Return to /.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "58",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "invalid host",
+      "expected": 403,
+      "actual": 403,
+      "passed": true,
+      "body": "{\"error\": \"This archive only accepts localhost requests.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "58",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "cross-origin read",
+      "expected": 403,
+      "actual": 403,
+      "passed": true,
+      "body": "{\"error\": \"Cross-origin access is not permitted.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "50",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "null origin",
+      "expected": 403,
+      "actual": 403,
+      "passed": true,
+      "body": "{\"error\": \"Cross-origin access is not permitted.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "50",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "invalid JSON",
+      "expected": 400,
+      "actual": 400,
+      "passed": true,
+      "body": "{\"error\": \"Expecting property name enclosed in double quotes: line 1 column 2 (char 1)\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "88",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "non-object JSON",
+      "expected": 400,
+      "actual": 400,
+      "passed": true,
+      "body": "{\"error\": \"Send an object containing a question.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "50",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "missing question",
+      "expected": 400,
+      "actual": 400,
+      "passed": true,
+      "body": "{\"error\": \"Write a question using text.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "41",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "wrong type",
+      "expected": 400,
+      "actual": 400,
+      "passed": true,
+      "body": "{\"error\": \"Write a question using text.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "41",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "empty question",
+      "expected": 400,
+      "actual": 400,
+      "passed": true,
+      "body": "{\"error\": \"Write a question about the letters first.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "54",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "long question",
+      "expected": 400,
+      "actual": 400,
+      "passed": true,
+      "body": "{\"error\": \"Keep the question to 600 characters or fewer.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "58",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "wrong content type",
+      "expected": 415,
+      "actual": 415,
+      "passed": true,
+      "body": "{\"error\": \"Send the question as application/json.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "51",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "oversized body",
+      "expected": 413,
+      "actual": 413,
+      "passed": true,
+      "body": "{\"error\": \"Request must be between 1 and 8192 bytes.\"}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "54",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "name": "valid query",
+      "expected": 200,
+      "actual": 200,
+      "passed": true,
+      "body": "{\"question\": \"Where is the tin bird?\", \"status\": \"found\", \"summary\": \"These are the closest surviving passages. Read the accounts before drawing a conclusion.\", \"answer\": [{\"text\": \"Your tin bird is in the third drawer below the flour scales at the bakery. I wrapped it in a blue tea towel so its wings would not catch on the wood. Turn the key only twice: the spring still sticks where you mended it.\", \"source_id\": \"L04-P1\", \"letter_id\": \"L04\"}], \"sources\": [{\"id\": \"L04-P1\", \"text\": \"Your tin bird is in the third drawer below the flour scales at the bakery. I wrapped it in a blue tea towel so its wings would not catch on the wood. Turn the key only twice: the spring still sticks where you mended it.\", \"letter_id\": \"L04\", \"title\": \"For the person who finds the bird\", \"date\": \"1924-10-17\", \"author\": \"Mara Vale, baker\", \"location\": \"Vale\u2019s bakery, Market Steps\", \"score\": 0.7649, \"rank_score\": 0.5165}], \"conflicts\": [], \"limitation\": \"Similarity measures related wording and meaning, not truth or answer completeness. These are fictional accounts, quoted without inventing missing details.\", \"elapsed_ms\": 4.6, \"model\": {\"name\": \"MiniLM + TF-IDF \u00b7 local CPU\", \"description\": \"384-dimensional MiniLM embeddings with source title/byline context. Ranking blends 50% semantic cosine with 50% TF-IDF. Displayed similarity is neural cosine, not the blended rank or confidence. Quotes pass a 0.12 hybrid relevance floor. A separate narrow scope rule rejects live-service requests; it is not an answerability model.\", \"dimensions\": 384, \"passages\": 36, \"revision\": \"1110a243fdf4706b3f48f1d95db1a4f5529b4d41\", \"provider\": \"CPUExecutionProvider\", \"index_context\": \"title + author + recipient + paragraph\", \"lexical_weight\": 0.5, \"selection_floor\": 0.12, \"selection_metric\": \"hybrid relevance\", \"candidate\": \"02\", \"answer_method\": \"Extractive \u2014 no text-generation model\"}, \"keywords\": [], \"top_similarity\": 0.7649}",
+      "headers": {
+        "Server": "DeadLetterOffice/1.0 Python/3.12.14",
+        "Date": "Fri, 30 Oct 2026 04:03:59 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "1916",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+      }
+    }
+  ],
+  "browser": [],
+  "external_requests": [],
+  "console_errors": [],
+  "page_errors": []
+}
