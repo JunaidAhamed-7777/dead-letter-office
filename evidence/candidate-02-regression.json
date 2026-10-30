@@ -1,0 +1,432 @@
+{
+  "note": "Previously seen independent candidate01 set is now diagnostic/regression data, NOT a fresh holdout.",
+  "rows": [
+    {
+      "id": "P01",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L01-P2",
+        "L05-P1",
+        "L11-P2"
+      ],
+      "any_support": false,
+      "all_groups": false
+    },
+    {
+      "id": "P02",
+      "category": "paraphrase",
+      "status": "found",
+      "selected_sources": [
+        "L01-P1",
+        "L01-P2",
+        "L01-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P03",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L02-P2",
+        "L11-P1",
+        "L11-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P04",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L03-P2",
+        "L04-P1",
+        "L07-P1"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P05",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L05-P1",
+        "L05-P2",
+        "L05-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P06",
+      "category": "paraphrase",
+      "status": "found",
+      "selected_sources": [
+        "L06-P1",
+        "L06-P2",
+        "L06-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P07",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L05-P2",
+        "L07-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P08",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L06-P1",
+        "L08-P1",
+        "L11-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P09",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L08-P1",
+        "L08-P2",
+        "L08-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P10",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L05-P3",
+        "L08-P1",
+        "L08-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P11",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L03-P2",
+        "L09-P1",
+        "L09-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P12",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L05-P1",
+        "L10-P2",
+        "L11-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P13",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L05-P1",
+        "L11-P1",
+        "L11-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P14",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L05-P1",
+        "L11-P1",
+        "L11-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P15",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L06-P1",
+        "L07-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "P16",
+      "category": "paraphrase",
+      "status": "uncertain",
+      "selected_sources": [
+        "L01-P2",
+        "L02-P2",
+        "L10-P1"
+      ],
+      "any_support": false,
+      "all_groups": false
+    },
+    {
+      "id": "D01",
+      "category": "direct",
+      "status": "found",
+      "selected_sources": [
+        "L05-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "D02",
+      "category": "direct",
+      "status": "found",
+      "selected_sources": [
+        "L02-P3",
+        "L05-P3",
+        "L08-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "D03",
+      "category": "direct",
+      "status": "found",
+      "selected_sources": [
+        "L07-P1",
+        "L07-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "D04",
+      "category": "direct",
+      "status": "uncertain",
+      "selected_sources": [
+        "L10-P1"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "C01",
+      "category": "conflict",
+      "status": "uncertain",
+      "selected_sources": [
+        "L02-P1",
+        "L02-P3",
+        "L03-P1",
+        "L12-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "C02",
+      "category": "conflict",
+      "status": "uncertain",
+      "selected_sources": [
+        "L02-P1",
+        "L02-P2",
+        "L03-P1",
+        "L03-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "C03",
+      "category": "compound",
+      "status": "found",
+      "selected_sources": [
+        "L03-P2",
+        "L09-P1",
+        "L09-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "C04",
+      "category": "compound",
+      "status": "uncertain",
+      "selected_sources": [
+        "L01-P3",
+        "L11-P3",
+        "L12-P1"
+      ],
+      "any_support": true,
+      "all_groups": false
+    },
+    {
+      "id": "M01",
+      "category": "missing_fact",
+      "status": "uncertain",
+      "selected_sources": [
+        "L06-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "M02",
+      "category": "missing_fact",
+      "status": "found",
+      "selected_sources": [
+        "L04-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "M03",
+      "category": "missing_fact",
+      "status": "found",
+      "selected_sources": [
+        "L02-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "M04",
+      "category": "missing_fact",
+      "status": "uncertain",
+      "selected_sources": [
+        "L08-P1",
+        "L10-P3",
+        "L11-P3"
+      ],
+      "any_support": true,
+      "all_groups": false
+    },
+    {
+      "id": "M05",
+      "category": "missing_fact",
+      "status": "uncertain",
+      "selected_sources": [
+        "L01-P3",
+        "L11-P1",
+        "L11-P3"
+      ],
+      "any_support": false,
+      "all_groups": false
+    },
+    {
+      "id": "M06",
+      "category": "missing_fact",
+      "status": "found",
+      "selected_sources": [
+        "L02-P2",
+        "L09-P3"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "O01",
+      "category": "out_of_domain",
+      "status": "unknown",
+      "selected_sources": [],
+      "any_support": false,
+      "all_groups": null
+    },
+    {
+      "id": "O02",
+      "category": "out_of_domain",
+      "status": "unknown",
+      "selected_sources": [],
+      "any_support": false,
+      "all_groups": null
+    },
+    {
+      "id": "O03",
+      "category": "out_of_domain",
+      "status": "unknown",
+      "selected_sources": [],
+      "any_support": false,
+      "all_groups": null
+    },
+    {
+      "id": "O04",
+      "category": "out_of_domain",
+      "status": "unknown",
+      "selected_sources": [],
+      "any_support": false,
+      "all_groups": null
+    },
+    {
+      "id": "O05",
+      "category": "out_of_domain",
+      "status": "uncertain",
+      "selected_sources": [
+        "L01-P1",
+        "L01-P2",
+        "L01-P3"
+      ],
+      "any_support": false,
+      "all_groups": null
+    },
+    {
+      "id": "I01",
+      "category": "prompt_injection",
+      "status": "uncertain",
+      "selected_sources": [
+        "L04-P1",
+        "L04-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "I02",
+      "category": "prompt_injection",
+      "status": "uncertain",
+      "selected_sources": [
+        "L03-P1",
+        "L04-P1",
+        "L04-P2"
+      ],
+      "any_support": true,
+      "all_groups": true
+    },
+    {
+      "id": "I03",
+      "category": "prompt_injection",
+      "status": "uncertain",
+      "selected_sources": [
+        "L03-P3",
+        "L11-P3",
+        "L12-P1"
+      ],
+      "any_support": true,
+      "all_groups": true
+    }
+  ]
+}
