@@ -1,0 +1,20 @@
+test_every_answer_is_exact_evidence (test_archive.ArchiveTests.test_every_answer_is_exact_evidence) ... ok
+test_fixed_archive_ids_and_conflicts_are_valid (test_archive.ArchiveTests.test_fixed_archive_ids_and_conflicts_are_valid) ... ok
+test_incidental_conflict_does_not_override_unrelated_question (test_archive.ArchiveTests.test_incidental_conflict_does_not_override_unrelated_question) ... ok
+test_live_scope_guard_is_explicit (test_archive.ArchiveTests.test_live_scope_guard_is_explicit) ... ok
+test_low_cosine_paraphrase_can_retain_ranked_evidence (test_archive.ArchiveTests.test_low_cosine_paraphrase_can_retain_ranked_evidence) ... ok
+test_missing_model_has_useful_setup_error (test_archive.ArchiveTests.test_missing_model_has_useful_setup_error) ... ok
+test_no_fabrication_on_out_of_domain (test_archive.ArchiveTests.test_no_fabrication_on_out_of_domain) ... ok
+test_real_model_vectors_are_dense_and_normalized (test_archive.ArchiveTests.test_real_model_vectors_are_dense_and_normalized) ... ok
+test_rejects_invalid_questions (test_archive.ArchiveTests.test_rejects_invalid_questions) ... ok
+test_repeat_is_deterministic (test_archive.ArchiveTests.test_repeat_is_deterministic) ... ok
+test_answer_route (test_server.ServerTests.test_answer_route) ... ok
+test_health_reports_actual_provider (test_server.ServerTests.test_health_reports_actual_provider) ... ok
+test_invalid_json_and_payload (test_server.ServerTests.test_invalid_json_and_payload) ... ok
+test_only_serves_whitelisted_files (test_server.ServerTests.test_only_serves_whitelisted_files) ... ok
+test_rejects_cross_origin_and_rebinding (test_server.ServerTests.test_rejects_cross_origin_and_rebinding) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.909s
+
+OK
